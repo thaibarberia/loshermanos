@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+	<head>
+		<title>Los Hermanos</title>
+		<meta charset='utf-8'>
+		<link href='agenda.css' rel='stylesheet'>
+	</head>
+	<body>
+        <header id='topo'>
+			<div id='logo'>
+			<img src='../imagens/logo.jpg'>
+			</div>
+			<div id='yes'>
+			<form action='' type='get'>
+				<select name="cidades">
+						<option></option>
+						<ul><option value="Livramento">Livramento-BA</option></ul>
+						<ul><option value="Brumado">Brumado-BA</option></ul>
+						<ul><option value="Guanambi">Guanambi-BA</option></ul>
+				</select>
+			</form>
+                <a href='../index.html'><button>Sobre nós</button></a>
+				<a href='link2/link3/localizacao.html'><button>Localização</button></a>
+                
+			</div>
+		</header>
+        <h2>Agende seu horário conosco!</h2>
+    <div id="fim">
+	<form action="pagina.php" method="post">
+	<fieldset>
+			<label id='name'>Nome Completo:
+			<input type='text' name='nomecompleto'
+			placeholder='Digite o seu nome Completo'>
+			</label>
+		
+	</fieldset>
+    <fieldset>
+		<legend>Interesses:</legend>
+		<label>
+			<input type="checkbox" name="interesses" value="corte de cabelo"> Corte de Cabelo
+		</label>
+		<br>
+		<label>
+			<input type="checkbox" name="interesses" value="Cabelo e Barba">Cabelo e Barba
+		</label>
+		<br>
+		<label>
+			<input type="checkbox" name="interesses" value="Corte Infantil">Corte Infantil
+		</label>
+		
+		</fieldset>
+		<fieldset>
+			
+				<legend>Idade:</legend>
+				<label>
+					<input type='radio' name='idade' value="De 10 a 15">De 1 a 10 
+				</label>
+		<br>
+				<label>
+					<input type='radio' name='idade' value="De 15 a 20"> De 10 a 20
+				</label>
+		<br>
+				<label>
+					<input type='radio' name='idade' value="Mais de 25"> Mais de 25
+				</label>
+				
+			</fieldset>
+			<label>Caso seja menor de idade coloque o número de seu responsavel aqui:
+			<input type='number' name='numero'
+			placeholder='Coloque o Número aqui'>
+			</label>
+			
+			<label>Se for maior de idade coloque o seu número aqui:
+			<input type='number' name='numero'
+			placeholder='Coloque o seu Número aqui'>
+			</label>
+		<br>
+		<label>Horários desponíveis:
+		<select name="horario">
+			<option>...</option>
+			<option value="9:30">9:30</option>
+			<option value="12:00">12:00</option>
+			<option value="15:30">15:30</option>
+			<option value="18:00">18:00</option>
+			<option value="20:00">20:00</option>
+		</select>
+		</label>
+		<br>
+		<fieldset>
+			
+				<legend>Método de pagamento:</legend>
+				<label>
+					<input type='radio' name='Método de pagamento' value="Cartão">Cartão
+				</label>
+		<br>
+				<label>
+					<input type='radio' name='Método de pagamento' value="Dinheiro">Dinheiro
+				</label>
+		<br>
+				<label>
+					<input type='radio' name='Método de pagamento' value="Cheque">Cheque
+				</label>
+				
+			</fieldset>
+		<br>
+		<button type="submit">Enviar</button>
+		<button type="reset">Apagar Tudo</button>
+		
+		</form>
+        </div>
+	
+	</body>
+</html>

@@ -1,0 +1,45 @@
+:root{
+	--cor-fundo:#252422;
+	--cor-laranja:#EB5E28;
+	--cor-cinza1:#CCC5B9;
+	--cor-cinza:#403D39;
+	--cor-bege:#FFFCF2;
+}
+body{
+	background-color:var(--cor-cinza1);
+}
+h2{
+	background-color:var(--cor-fundo);
+	color:var(--cor-laranja);
+    text-align:center;
+	height:40px;
+}
+#logo img{
+	width:100px;
+	height:155px;
+}
+#yes{
+	grid-column:3;
+	grid-row:1;
+	display:flex;
+}
+#yes a{
+	margin:20px ;
+}
+#fim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:100px;
+}
+#topo{
+	background-color:var(--cor-laranja);
+	height:20vh;
+	border-radius:0 0 15px 15px;
+	padding:1.5rem;
+	border-bottom:var(--cor-cinzaclaro);
+	display:grid;
+	grid-template-columns:3fr;
+	grid-template-rows:auto auto;
+	justify-content:space-around;
+}
